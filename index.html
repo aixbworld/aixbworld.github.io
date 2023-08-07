@@ -24,8 +24,33 @@
                 <link as="image" href="https://aixb.world/bg_square_large.webp" rel="preload">
                 <link as="image" href="https://aixb.world/bg_square_small.webp" rel="preload">
                 <link as="image" href="https://aixb.world/team.webp" rel="preload">
-                <link as="styles" href="styles.css" rel="preload">
+                <link as="styles" href="styles1.css" rel="preload">
                 <link href="styles1.css" rel="stylesheet">
+                <style>
+                        #particles-js {
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                        }
+                
+                        body {
+                            animation: gradient 10s ease infinite;
+                            margin: 0;
+                            height: 100vh;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-size: 400% 400%;
+                        }
+                
+                        @keyframes gradient {
+                            0% {background: #1abc9c;}
+                            25% {background: #3498db;}
+                            50% {background: #9b59b6;}
+                            75% {background: #e74c3c;}
+                            100% {background: #1abc9c;}
+                        }
+                </style>
 
         </head>
         <body>
